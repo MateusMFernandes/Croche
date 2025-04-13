@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@font-face {
+    font-family: leeh;
+    src: url(fonte/Pacifico.ttf);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: rgb(92, 92, 92);
+    background-image: url(./Imagens/Fundo.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    position: relative;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+header {
+    background-color: #856d4ef6;
+    color: white;
+    padding: 2%;
+    text-align: center;
+    font-family: "leeh";
+    font-size: 20px;
+
+}
+h1, p{
+    text-shadow:2px 2px 2px rgba(0, 0, 0, 0.295);
+}
+#gallery {
+    margin: auto;
+    padding: 5%;
+}
+.Produtos {
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.404);
+}
+.bloco{
+
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.699);
+    padding: 5%;
+    margin-bottom: 30px;
+}
+.Descritivo {
+    padding-top: 20px;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    padding: 1rem 0px;
+    background-color: #856d4eee;
+    color: white;
+}

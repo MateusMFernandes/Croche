@@ -1,0 +1,19 @@
+@charset "UTF-8";
+@media screen and (max-width: 1300px){
+    body {
+        background-position: center right;
+        background-image: url(Imagens/FundoCel.png);
+    }
+}
+    @media screen and (min-width: 700px){
+        #gallery {
+            grid-template-columns: repeat(2, 1fr);
+
+        }
+    }
+    @media screen and (min-width: 1301px){
+        #gallery {
+            grid-template-columns: repeat(3, 1fr);
+
+        }
+    }
