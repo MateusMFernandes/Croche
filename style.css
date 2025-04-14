@@ -49,7 +49,7 @@ h1, p{
     padding: 5%;
     margin-bottom: 30px;
 }
-.Descritivo {
+.Descritivo, h2 {
     padding-top: 20px;
 }
 
