@@ -1,8 +1,8 @@
 @charset "UTF-8";
-@media screen and (max-width: 1300px){
+@media screen and (min-width: 1300px){
     body {
         background-position: center right;
-        background-image: url(Imagens/FundoCel.png);
+        background-image: url(Imagens/Fundo.png);
     }
 }
     @media screen and (min-width: 700px){
